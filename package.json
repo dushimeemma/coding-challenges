@@ -1,0 +1,20 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/dushimeemma/coding-challenges.git",
+  "author": "dushimeemma <dushimeemma@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && node build/index.js",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
